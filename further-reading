@@ -1,0 +1,3 @@
+git clone https://github.com/BlueRingsLabs/no-shortcuts.git
+cd no-shortcuts
+grep -rn -i -A 15 "further reading" --include="*.md" . > further_reading_raw.txt
